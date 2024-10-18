@@ -1,0 +1,64 @@
+.review__container {
+    width: 100%; /* Full width to match the service box layout */
+    margin: auto; /* Center the container */
+}
+
+.review__card {
+    background-color: var(--container-color);
+    border-radius: 10px; 
+    padding: 40px; 
+    transition: .4s ease; 
+    min-height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--mb-3); 
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+}
+
+.review__card:hover {
+    transform: translateY(-5px); /* Slightly lift the card on hover */
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.review__img {
+    width: 70px; /* Adjust the image size */
+    height: 70px;
+    border-radius: 50%; /* Keep image circular */
+    margin-bottom: var(--mb-1);
+}
+
+.review__name {
+    font-size: var(--large-font-size); /* Ensure large text for name */
+    font-weight: var(--font-medium);
+    color: var(--title-color); /* Match text color with the dark background */
+    margin-bottom: var(--mb-0-25);
+}
+
+.review__description {
+    font-size: var(--medium-font-size); /* Slightly smaller description text */
+    color: var(--text-color); /* Light gray text to contrast with the background */
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+/* Pagination styles */
+.swiper-pagination-bullet {
+    background-color: var(--text-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--title-color) !important;
+}
+
+@media screen and (max-width: 992px) {
+    .review__container {
+        width: 100%; /* Adjust for smaller screens */
+    }
+
+    .review__card {
+        padding: 20px; /* Reduce padding for smaller screens */
+        width: 100%;
+}}
