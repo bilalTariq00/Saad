@@ -1,34 +1,38 @@
 .about__container {
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Keeps first and last boxes aligned */
+ 
 }
 
 .about__info {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-columns: repeat(4, 1fr); /* 3 equal columns */
     gap: 1.5rem; 
 
 }
 
-
 .about__box {
     border-radius: 10px;
     width: 100%;
+    max-width: 120%;
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 40px; 
-    transition: .4s ease;
-    min-height: 300px; 
+    padding: 0px;
+    transition: 0.4s ease;
+    min-height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center; 
-    
+    text-align: center;
+    margin-bottom: -10px; /* Negative margin brings boxes closer */
 }
 
 .about__box:hover {
     background-color: #191919; 
     color: #fff; 
+    transform: translateY(-5px); /* animate up instead of down */
 }
 
 .about__icon {
@@ -59,7 +63,7 @@
 
 
 .about__description {
-    padding: 0 5rem 0 0;
+    padding: 0 2rem 0 0;
     margin-bottom: var(--mb-2-5);
     text-align: center;
     justify-content: center;
@@ -87,6 +91,13 @@
     padding: 0 5rem;
     margin-bottom: 2rem;
 }
+}
+@media screen and (max-width: 768px)
+{
+    .about__info {
+        grid-template-columns: repeat(2, 1fr); /* Display two boxes per row */
+        gap: 1.5rem; /* Add space between grid items */
+    }
 }
 
 @media screen and (max-width: 576px) {

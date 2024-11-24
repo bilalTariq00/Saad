@@ -1,29 +1,34 @@
 import React from 'react';
-import "./footer.css";
+import './footer.css'; // Import the CSS file
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer__container container">
-        <h1 className="footer__title">Saad</h1>
-
-        <div className="footer__social">
-          <a href="mailto:your-email@example.com" className='footer__social-link' target='_blank' rel="noopener noreferrer">
-            <i className="bx bx-mail-send"></i>
-          </a>
-
-          <a href="tel:+1234567890" className='footer__social-link' target='_blank' rel="noopener noreferrer">
-            <i className="bx bx-phone-call"></i>
-          </a>
-
-          <a href="https://wa.me/1234567890" className='footer__social-link' target='_blank' rel="noopener noreferrer">
-            <i className="bx bxl-whatsapp"></i>
-          </a>
+      <div className="footer-contact">
+        <div className="contact-item">
+          <i className="uil uil-phone-alt"></i>
+          <span>+123 456 7890</span>
         </div>
-        <span className="footer__copy">&#169; SaadKhan. All rights reserved</span>
+        <div className="contact-item">
+          <i className="uil uil-envelope"></i>
+          <span>saadkhan2@gmail.com</span>
+        </div>
+        <div className="contact-item">
+          <i className="uil uil-map-marker-alt"></i>
+          <span>Islamabad, Pakistan</span>
+        </div>
+      </div>
+      <div className="footer-social">
+        <a href="#" className="social-icon"><i className="uil uil-github"></i></a>
+        
+        <a href="#" className="social-icon"><i className="uil uil-linkedin-alt"></i></a>
+        <a href="#" className="social-icon"><i className="uil uil-skype-alt"></i></a>
+      </div>
+      <div className="footer-bottom">
+        <p>© 2024 Your Company Name. All Rights Reserved.</p>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

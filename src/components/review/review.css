@@ -1,6 +1,7 @@
 .review__container {
     width: 100%; /* Full width to match the service box layout */
     margin: auto; /* Center the container */
+    
 }
 
 .review__card {
@@ -8,11 +9,11 @@
     border-radius: 10px; 
     padding: 40px; 
     transition: .4s ease; 
-    min-height: 300px; 
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin-top: 3%;
     margin-bottom: var(--mb-3); 
     width: 100%;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
@@ -23,24 +24,22 @@
     box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
 }
 
-.review__img {
-    width: 70px; /* Adjust the image size */
-    height: 70px;
-    border-radius: 50%; /* Keep image circular */
-    margin-bottom: var(--mb-1);
-}
 
 .review__name {
-    font-size: var(--large-font-size); /* Ensure large text for name */
+    font-size: 1.3rem;
     font-weight: var(--font-medium);
     color: var(--title-color); /* Match text color with the dark background */
-    margin-bottom: var(--mb-0-25);
 }
 
 .review__description {
     font-size: var(--medium-font-size); /* Slightly smaller description text */
     color: var(--text-color); /* Light gray text to contrast with the background */
-    text-align: center; 
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.app__name{
+    font-size: var(--large-font-size); /* Ensure large text for name */
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
@@ -52,8 +51,39 @@
 .swiper-pagination-bullet-active {
     background-color: var(--title-color) !important;
 }
+@media screen and (max-width: 1445px){
+    
+.review__card{
+    min-height: 450px;
+}
+}
+@media screen and (max-width: 1250px){
+    
+    .review__card{
+        min-height: 540px;
+    }
+    .review__name {
+        font-size: 1rem;
+    }
+    }
+    @media screen and (max-width: 1150px){
+    
+        .review__card{
+            min-height: 580px;
+
+        }
+        }
+     @media screen and (max-width: 1110px){
+        .review__card{
+            min-height: 621px;
+
+        }
+     }
 
 @media screen and (max-width: 992px) {
+    .review__card{
+        min-height: 340px;
+    }
     .review__container {
         width: 100%; /* Adjust for smaller screens */
     }
@@ -62,3 +92,35 @@
         padding: 20px; /* Reduce padding for smaller screens */
         width: 100%;
 }}
+@media screen and (max-width:790px) {
+    .review__card{
+        min-height: 360px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .review__card{
+        min-height: 360px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .review__card{
+        min-height: 320px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .review__card{
+        min-height: 340px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .review__card{
+        min-height: 360px;
+    }
+}
+@media screen and (max-width:280px) {
+    .review__card{
+        min-height: 415px;
+    }
+}
+

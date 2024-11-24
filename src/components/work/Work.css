@@ -4,13 +4,16 @@
   align-items: center;
   column-gap: 0.75rem;
   margin-bottom: var(--mb-2);
+ 
 }
 .work__item {
+  width: 100px;
   cursor: pointer;
   color: var(--title-color);
   padding: 0.3rem 0.8rem;
   border-radius: var(--font-medium);
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid black;
   text-decoration: capitalize;
 }
 
@@ -19,14 +22,12 @@
   color: var(--container-color);
 }
 .work__container {
-  grid-template-columns: repeat(2, max-content);
-  gap: 3rem;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr; /* Stack cards on top of each other */
+  gap: 2rem; /* Add gap between cards */
   padding-top: 30px;
   padding-bottom: 30px;
+  justify-items: center; /* Center content inside each grid item */
 }
 
 .work__card {
@@ -35,7 +36,7 @@
   padding: 1.25rem;
   border-radius: 1rem;
  
-  height: 350px;
+  height: 500px;
   width: 300px;
 }
 
@@ -72,7 +73,68 @@
   background-color: var(--title-color);
   color: white;
 }
+.button{
+  padding: 8px 16px; /* Reduced padding for smaller buttons */
+  background-color: #000000; /* Black background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline from link */
+  display: inline-block; /* Make sure the <a> behaves like a button */
+  min-width: 100px; /* Minimum width for consistency */
+  font-size: 14px; /* Text size */
+}
+.button-sty {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  padding: 0px 36px;
+}
+.button-style {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 25px;
+  width: 100%;
+  padding: 0px 36px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .work__container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for iPad Air */
+    justify-content: center;
+  }
+}
 
+/* For large screens (e.g., desktop, above 1024px) */
+@media screen and (min-width: 1200px) {
+  .work__container {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for desktop */
+    
+  }
+}
+@media screen and (max-width: 576px) {
+  .work__container {
+    grid-template-columns: 1fr; /* Stack cards on top of each other for mobile */
+  }
+}
+
+/* For smaller screens with a width of 350px or less */
+@media screen and (max-width: 350px) {
+  .work__item {
+    font-size: var(--small-font-size); /* Adjust font size for smaller screens */
+  }
+
+  .work__filters {
+    column-gap: 0.25rem; /* Adjust gap between filter items */
+  }
+}
 @media screen and (max-width: 992px) {
     .work__container{
         gap: 1.25rem;
@@ -111,3 +173,4 @@
         column-gap: .25rem;
     }
 }
+

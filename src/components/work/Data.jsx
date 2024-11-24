@@ -3,41 +3,84 @@ export const projectsData = [
   {
     id: 1,
     image: dummy,
-    title: "web design",
-    category: "web",
+    title: "Live Mosque",
+    category: "Flutter",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
-    demo:"https://github.com/laibabintatahir"
-  },
-  {
-    id: 3,
-    image: dummy,
-    title: "Brand design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
-    category: "design",
-    demo:"https://libaslegrace.vercel.app/"
+    Android: "https://play.google.com/store/apps/details?id=live.mosque",
+    AppStore: "https://apps.apple.com/pk/app/live-mosque/id1526634381"
   },
   {
     id: 2,
     image: dummy,
-    title: "App mobil",
+    title: "Live Mosque Imam Admin",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
-    category: "app",
-    demo:"https://laundryinfo.vercel.app/"
+    category: "Flutter",
+    Android: "https://play.google.com/store/apps/details?id=live.mosque.imam",
+    AppStore: "https://apps.apple.com/pk/app/live-mosque-imam-admin/id6499443404"
   },
-
+  {
+    id: 3,
+    image: dummy,
+    title: "BASIT Icon Pack",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
+    category: "Android",
+    Android: "https://play.google.com/store/apps/details?id=com.thomasdemirgil.basit.app"
+  },
   {
     id: 4,
     image: dummy,
-    title: "web development",
+    title: "BikingBuds",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
-    category: "web",
-    demo:"https://github.com/laibabintatahir"
+    category: "Android",
+    Android: "https://play.google.com/store/apps/details?id=com.SaahilSukhija.BikingBuds"
   },
+  {
+    id: 5,
+    image: dummy,
+    title: "Nkenne: Learn African Language",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
+    category: "Android",
+    Android: "https://play.google.com/store/apps/details?id=com.triaxo.nkenne"
+  },
+  {
+    id: 6,
+    image: dummy,
+    title: "CryptoMoto",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
+    category: "Android",
+    Android: "https://play.google.com/store/apps/details?id=org.cryptomoto.app"
+  },
+  {
+    id: 7,
+    image: dummy,
+    title: "MFMac HR",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
+    category: "Android",
+    Android: "https://play.google.com/store/apps/details?id=com.morton_fraser.mfhrmobile2"
+  },
+  {
+    id: 8,
+    image: dummy,
+    title: "Elysian Voyages",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
+    category: "Flutter",
+    Android: "https://play.google.com/store/apps/details?id=com.ely.travel",
+    AppStore: "Coming Soon"
+  },
+  {
+    id: 9,
+    image: dummy,
+    title: "Wedfluencer",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
+    category: "Flutter",
+    Android: "https://play.google.com/store/apps/details?id=com.wedfluencer.app",
+    AppStore: "Coming Soon"
+  }
 ];
 
+
 export const projectsNav = [
-  { name: "all" },
-  { name: "web" },
-  { name: "app" },
-  { name: "design" },
+  { name: "All" },
+  { name: "Flutter" },
+  { name: "Android" },
 ];

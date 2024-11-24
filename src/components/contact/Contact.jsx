@@ -10,26 +10,28 @@ const Contact = () => {
 
         <div className="contact-container">
           <div className="contact-header">
-            <h1>100% Satisfaction Guaranteed</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, 
-              tempore architecto sint ipsam dolore tempora facere laboriosam corrupti!</p>
-            <h3>What will be the next step?</h3>
+            <h1>Let’s Connect and Bring Your Idea to Life!</h1>
+            <p>Have a question, a project idea, or just want to chat? I’m here to create high-quality, user-friendly apps designed to meet your needs perfectly.
+            </p>
+            <h3>Why Choose Me?
+            </h3>
             <ul>
-              <li>✔ We'll prepare the proposal.</li>
-              <li>✔ We'll discuss it together.</li>
-              <li>✔ Let's start the discussion.</li>
+              <li>✔ User-Centric Design.</li>
+              <li>✔ Clear Communication.</li>
+              <li>✔ On-Time Project Delivery.</li>
+              <li>✔ Dedicated Post-Launch Support.</li>
             </ul>
           </div>
           <div className="contact-form">
-            <h2>Start Your Project</h2>
+            <h2>Reach out today!</h2>
             <form>
               <div className="input-row">
-                <input type="text" placeholder="First Name" required />
-                <input type="text" placeholder="Last Name" required />
+                <input type="text" placeholder="Enter your Name" required />
+
               </div>
-              <input type="email" placeholder="Email Address" required />
-              <textarea placeholder="Message" required></textarea>
-              <button type="submit">Submit</button>
+              <input type="email" placeholder="Enter your Email address" required />
+              <textarea placeholder=" Your Message" required></textarea>
+              <button type="submit">Send Message</button>
             </form>
           </div>
         </div>

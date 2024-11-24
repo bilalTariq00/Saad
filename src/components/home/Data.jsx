@@ -1,19 +1,53 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
 
 const Data = () => {
+  const subtitles = [
+    "Cross-Platform App Developer",
+    "Android App Developer",
+    "Flutter App Developer",
+  ];
+
+  const [currentSubtitle, setCurrentSubtitle] = useState("");
+  const [index, setIndex] = useState(0);
+  const [charIndex, setCharIndex] = useState(0);
+
+  useEffect(() => {
+    if (charIndex < subtitles[index].length) {
+      // Typing each character one by one
+      const timeout = setTimeout(() => {
+        setCurrentSubtitle((prev) => prev + subtitles[index][charIndex]);
+        setCharIndex((prev) => prev + 1);
+      }, 100); // Typing speed
+
+      return () => clearTimeout(timeout);
+    } else {
+      // Wait before moving to the next subtitle
+      const pauseTimeout = setTimeout(() => {
+        setCharIndex(0);
+        setCurrentSubtitle("");
+        setIndex((prevIndex) => (prevIndex + 1) % subtitles.length);
+      }, 1000); // Pause for 2 seconds before changing subtitle
+
+      return () => clearTimeout(pauseTimeout);
+    }
+  }, [charIndex, index, subtitles]);
+
   return (
     <div className="home__data">
+      <h4 className="home__intro">I am</h4>
       <h1 className="home__title">Saad Khan</h1>
-      <h3 className="home__subtitle">App Developer</h3>
-      <p className="home__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid reiciendis nobis fuga voluptatum nostrum in distinctio iure tempore commodi facilis, eius neque esse. Obcaecati impedit, expedita qui sed odio modi?</p>
+      <h3 className="home__subtitle">{currentSubtitle}</h3>
 
-      <div className="i-buttons"> 
-        <a href="https://your-portfolio-link.com/hire" className="button button--flex">Hire Me</a>
-        <a href="https://your-portfolio-link.com/contact" className="button button--flex">Contact Me</a>
+      <div className="i-buttons">
+        <a href="#contact" className="button button--flex">
+          Hire Me
+        </a>
+        <a href="#portfolio" className="button button--flex">
+          My Portfolio
+        </a>
       </div>
     </div>
   );
-}
+};
 
 export default Data;
-

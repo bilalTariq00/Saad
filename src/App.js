@@ -22,8 +22,8 @@ const App =() => {
     <main className='main'>
     <Home />
     <About />
-    <Services />
     <Skills />
+    <Services />
     <Work />
     <Review />
     <Contact />

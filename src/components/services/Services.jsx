@@ -6,12 +6,7 @@ const Services = () => {
     <div className="service component__space" id="services">
     <div className="heading">
         <h1 className="heading">Service</h1>
-        <p className="heading p__color">
-            There are many variations of passages of Lorem Ipsum available,
-        </p>
-        <p className="heading p__color">
-            but the majority have suffered alteration,
-        </p>
+        
     </div>
 
     <div className="container">
@@ -37,14 +32,10 @@ const Services = () => {
         </svg>
                     </div>
                     <div className="service__meta">
-                        <h1 className="service__text">Business Stratagy</h1>
+                        <h1 className="service__text">Cross-Platform Mobile Apps</h1>
                         <p className="p service__text p__color">
-                            I throw myself down among th
-                           tall grass by the stream as I lie
-                        </p>
-                        <p className="p service__text p__color">
-                            Close to the earth.
-                        </p>
+                        I develop a wide range of mobile applications, including e-commerce, social networking, and business apps using Flutter, Android, and iOS, focusing on client-specific requirements.                        </p>
+                        
                     </div>
                  </div>
             </div>
@@ -69,16 +60,10 @@ const Services = () => {
         </svg>
                     </div>
                     <div className="service__meta">
-                        <h1 className="service__text">Business Stratagy</h1>
+                        <h1 className="service__text">Native Android and iOS Apps</h1>
                         <p className="p service__text p__color">
-                            I throw myself down among th
+                      I create diverse native applications for Android using Kotlin and for iOS using Swift, designed for high performance while leveraging unique platform features.                        </p>
                         
-                       
-                           tall grass by the stream as I lie
-                        </p>
-                        <p className="p service__text p__color">
-                            Close to the earth.
-                        </p>
                     </div>
                  </div>
             </div>
@@ -104,16 +89,11 @@ const Services = () => {
         </svg>
                     </div>
                     <div className="service__meta">
-                        <h1 className="service__text">Marketing & Reporting</h1>
+                        <h1 className="service__text">On-Demand Apps</h1>
                         <p className="p service__text p__color">
-                            I throw myself down among th
-                        
-                        
-                           tall grass by the stream as I lie
+                        I create on-demand service apps (e.g., food delivery, ride-hailing, and booking apps etc) with real-time tracking, user management, and payment gateway integrations.
                         </p>
-                        <p className="p service__text p__color">
-                            Close to the earth.
-                        </p>
+                        
                     </div>
                  </div>
             </div>
@@ -138,16 +118,11 @@ const Services = () => {
         </svg>
                     </div>
                     <div className="service__meta">
-                        <h1 className="service__text">Mobile App Development</h1>
+                        <h1 className="service__text">UI/UX Design and Prototyping</h1>
                         <p className="p service__text p__color">
-                            I throw myself down among th
-                        
+                        I design and prototype mobile interfaces, focusing on clean, intuitive, and engaging user experiences for high user retention and increased engagement.
+                        </p>
                        
-                           tall grass by the stream as I lie
-                        </p>
-                        <p className="p service__text p__color">
-                            Close to the earth.
-                        </p>
                     </div>
                  </div>
             </div>
@@ -173,12 +148,9 @@ const Services = () => {
         </svg>
                     </div>
                     <div className="service__meta">
-                        <h1 className="service__text">Business Stratagy</h1>
+                        <h1 className="service__text">App Maintenance & Optimization</h1>
                         <p className="p service__text p__color">
-                            I throw myself down among th tall grass by the stream as I lie
-                        
-                        
-                            Close to the earth.
+                        I provide ongoing support for existing apps, including performance enhancements, bug fixes, updates, and feature additions to keep your app competitive.
                         </p>
                     </div>
                  </div>
@@ -204,16 +176,11 @@ const Services = () => {
         </svg>
                     </div>
                     <div className="service__meta">
-                        <h1 className="service__text">Mobile App Development</h1>
+                        <h1 className="service__text">API & Backend Integration: </h1>
                         <p className="p service__text p__color">
-                            I throw myself down among th
+                        I implement backend systems and integrate REST APIs for real-time data syncing, authentication, and secure storage in apps like chat apps, fintech apps, and more.
+                        </p>
                         
-                      
-                           tall grass by the stream as I lie
-                        </p>
-                        <p className="p service__text p__color">
-                            Close to the earth.
-                        </p>
                     </div>
                  </div>
             </div>

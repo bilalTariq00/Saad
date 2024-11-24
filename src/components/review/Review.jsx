@@ -10,8 +10,8 @@ import { Pagination } from 'swiper/modules';
 const Review = () => {
   return (
     <section className="review container section" id="reviews">
-      <h2 className="section__title">My Clients Say</h2>
-      <span className="section__subtitle">Testimonials</span>
+      <h2 className="section__title">My Testimonials</h2>
+      
 
       <Swiper
         modules={[Pagination]} // Include the Pagination module
@@ -30,11 +30,11 @@ const Review = () => {
           992: { slidesPerView: 3, spaceBetween: 40 },
         }}
       >
-        {Data.map(({ id, image, title, description }) => (
+        {Data.map(({ id, title, description, app }) => (
           <SwiperSlide className="review__card" key={id}>
             <p className="review__description">{description}</p>
-            <img src={image} alt={title} className='review__img' />
             <h3 className="review__name">{title}</h3>
+            <h3 className="app__name">{app}</h3>
           </SwiperSlide>
         ))}
       </Swiper>
