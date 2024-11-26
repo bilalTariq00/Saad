@@ -74,8 +74,8 @@
   width: 100%; /* Ensure the buttons align within the container */
 }
 
-.button {
-  padding: 15px 40px; /* Reduced padding for smaller buttons */
+.buttonss {
+  padding: 12px 40px; /* Reduced padding for smaller buttons */
   background-color: #000000; /* Black background color */
   color: white; /* White text color */
   border: none; /* Remove border */
@@ -92,9 +92,18 @@
 .button:hover {
   background-color: #333333; /* Darker shade on hover */
 }
-
+@media (max-width: 1150px){
+  .buttonss{
+    padding: 14px 31px;
+    font-size: 16px;
+  }
+}
 /* Adjustments for small screens */
 @media (max-width: 1024px) {
+  .buttonss{
+    padding: 13px 22px;
+    font-size: 14px;
+  }
   .home__subtitle{
     font-size: 1.2rem;
    height: 4.5rem;

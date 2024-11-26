@@ -26,11 +26,11 @@ const Contact = () => {
             <h2>Reach out today!</h2>
             <form>
               <div className="input-row">
-                <input type="text" placeholder="Enter your Name" required />
+                <input type="text" placeholder="Enter your name" required />
 
               </div>
-              <input type="email" placeholder="Enter your Email address" required />
-              <input type="phone" placeholder="Enter your Phone Number" required />
+              <input type="email" placeholder="Enter your email address" required />
+              <input type="phone" placeholder="Enter your phone number" required />
               <textarea placeholder=" Your Message" required></textarea>
               <button type="submit">Send Message</button>
             </form>

@@ -39,10 +39,10 @@ const Data = () => {
       <h3 className="home__subtitle">{currentSubtitle}</h3>
 
       <div className="i-buttons">
-        <a href="#contact" className="button button--flex">
+        <a href="#contact" className="buttonss button--flex">
           Hire Me
         </a>
-        <a href="#services" className="button button--flex">
+        <a href="#services" className="buttonss button--flex">
           My Services
         </a>
       </div>
