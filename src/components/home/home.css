@@ -75,7 +75,7 @@
 }
 
 .button {
-  padding: 8px 16px; /* Reduced padding for smaller buttons */
+  padding: 15px 40px; /* Reduced padding for smaller buttons */
   background-color: #000000; /* Black background color */
   color: white; /* White text color */
   border: none; /* Remove border */
@@ -86,7 +86,7 @@
   text-decoration: none; /* Remove underline from link */
   display: inline-block; /* Make sure the <a> behaves like a button */
   min-width: 100px; /* Minimum width for consistency */
-  font-size: 14px; /* Text size */
+  font-size: 18px; /* Text size */
 }
 
 .button:hover {

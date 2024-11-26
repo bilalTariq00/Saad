@@ -35,7 +35,6 @@
     font-size: var(--medium-font-size); /* Slightly smaller description text */
     color: var(--text-color); /* Light gray text to contrast with the background */
     margin-bottom: 10px;
-    text-align: justify;
 }
 .app__name{
     font-size: var(--large-font-size); /* Ensure large text for name */

@@ -42,8 +42,8 @@ const Data = () => {
         <a href="#contact" className="button button--flex">
           Hire Me
         </a>
-        <a href="#portfolio" className="button button--flex">
-          My Portfolio
+        <a href="#services" className="button button--flex">
+          My Services
         </a>
       </div>
     </div>

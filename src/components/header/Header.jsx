@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <header className='header'>
             <nav className="nav container">
-                <a href="index.html" className="nav__logo">Saad</a>
+                <a href="index.html" className="nav__logo">Saad Khan</a>
 
                 <div className={isMenuOpen ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
@@ -21,7 +21,7 @@ const Header = () => {
 
                         <li className="nav__item">
                             <a href="#about" className="nav__link">
-                                <i className="uil uil-briefcase-alt nav__icon"></i>About
+                                <i className="uil uil-briefcase-alt nav__icon"></i>About Me
                             </a>
                         </li>
 
@@ -33,24 +33,24 @@ const Header = () => {
 
                         <li className="nav__item">
                             <a href="#services" className="nav__link">
-                                <i className="uil uil-comment-notes nav__icon"></i>Services
+                                <i className="uil uil-comment-notes nav__icon"></i>My Services
                             </a>
                         </li>
 
                         <li className="nav__item">
                             <a href="#portfolio" className="nav__link">
-                                <i className="uil uil-scenery nav__icon"></i>Portfolio
+                                <i className="uil uil-scenery nav__icon"></i>My Portfolio
                             </a>
                         </li>
 
                         <li className="nav__item">
                             <a href="#reviews" className="nav__link">
-                                <i className="uil uil-message nav__icon"></i>Testimonoal
+                                <i className="uil uil-message nav__icon"></i>Testimonial
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#contact" className="nav__link">
-                                <i className="uil uil-message nav__icon"></i>Contact
+                                <i className="uil uil-message nav__icon"></i>Contact Me
                             </a>
                         </li>
                     </ul>
