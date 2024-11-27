@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div className="service component__space" id="services">
     <div className="heading">
-        <h1 className="heading">My Service</h1>
+        <h1 className="heading">My Services</h1>
         
     </div>
 

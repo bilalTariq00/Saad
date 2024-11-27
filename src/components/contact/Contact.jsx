@@ -31,8 +31,8 @@ const Contact = () => {
               </div>
               <input type="email" placeholder="Enter your email address" required />
               <input type="phone" placeholder="Enter your phone number" required />
-              <textarea placeholder=" Your Message" required></textarea>
-              <button type="submit">Send Message</button>
+              <textarea placeholder=" Your message" required></textarea>
+              <button type="submit">Send message</button>
             </form>
           </div>
         </div>

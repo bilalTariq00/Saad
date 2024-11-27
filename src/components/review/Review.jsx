@@ -33,8 +33,8 @@ const Review = () => {
         {Data.map(({ id, title, description, app }) => (
           <SwiperSlide className="review__card" key={id}>
             <p className="review__description">{description}</p>
-            <h3 className="review__name">{title}</h3>
-            <h3 className="app__name">{app}</h3>
+            <h3 className="review__name">{app}</h3>
+            <h3 className="app__name">{title}</h3>
           </SwiperSlide>
         ))}
       </Swiper>
