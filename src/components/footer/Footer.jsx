@@ -19,10 +19,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-social">
-        <a href="#" className="social-icon"><i className="uil uil-github"></i></a>
+        <a href="https://github.com/SaadKhanJadoon" className="social-icon"><i className="uil uil-github"></i></a>
         
-        <a href="#" className="social-icon"><i className="uil uil-linkedin-alt"></i></a>
-        <a href="#" className="social-icon"><i className="uil uil-skype-alt"></i></a>
+        <a href="https://www.linkedin.com/in/saadkhan1501/" className="social-icon"><i className="uil uil-linkedin-alt"></i></a>
+        <a href="https://join.skype.com/invite/ufaDKedjpuGr" className="social-icon"><i className="uil uil-skype-alt"></i></a>
       </div>
       <div className="footer-bottom">
         <p>© Made with ❤️ by Saad Khan. All Rights Reserved</p>
