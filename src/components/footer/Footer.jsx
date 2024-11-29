@@ -7,15 +7,15 @@ const Footer = () => {
       <div className="footer-contact">
         <div className="contact-item">
           <i className="uil uil-phone-alt"></i>
-          <span>+123 456 7890</span>
+          <span>+92 317 5531440</span>
         </div>
         <div className="contact-item">
           <i className="uil uil-envelope"></i>
-          <span>saadkhan2@gmail.com</span>
+          <span>saadkhan.cdz@gmail.com</span>
         </div>
         <div className="contact-item">
           <i className="uil uil-map-marker-alt"></i>
-          <span>Islamabad, Pakistan</span>
+          <span>Islamabad Pakistan</span>
         </div>
       </div>
       <div className="footer-social">
@@ -25,7 +25,7 @@ const Footer = () => {
         <a href="#" className="social-icon"><i className="uil uil-skype-alt"></i></a>
       </div>
       <div className="footer-bottom">
-        <p>© 2024 Your Company Name. All Rights Reserved.</p>
+        <p>© Made with ❤️ by Saad Khan. All Rights Reserved</p>
       </div>
     </footer>
   );

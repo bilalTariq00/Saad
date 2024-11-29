@@ -32,14 +32,15 @@
 }
 
 .review__description {
+    height: 250px;
     font-size: var(--medium-font-size); /* Slightly smaller description text */
     color: var(--text-color); /* Light gray text to contrast with the background */
     margin-bottom: 10px;
 }
 .app__name{
     font-size: var(--large-font-size); /* Ensure large text for name */
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 /* Pagination styles */
@@ -54,6 +55,9 @@
     
 .review__card{
     min-height: 450px;
+}
+.review__description{
+    height: 288px;
 }
 }
 @media screen and (max-width: 1250px){
@@ -77,6 +81,9 @@
             min-height: 621px;
 
         }
+        .review__description{
+            height: 485px;
+       }
      }
 
 @media screen and (max-width: 992px) {
@@ -90,11 +97,22 @@
     .review__card {
         padding: 20px; /* Reduce padding for smaller screens */
         width: 100%;
-}}
+}
+    
+}
+
+@media screen and (max-width: 1250px) {
+    .review__description{
+        height: 380px;
+   }
+}
 @media screen and (max-width:790px) {
     .review__card{
         min-height: 360px;
     }
+    .review__description{
+        height: 380px;
+   }
     
 }
 @media screen and (max-width: 768px) {
@@ -106,10 +124,16 @@
     .review__card{
         min-height: 320px;
     }
+    .review__description{
+        height: 200px;
+   }
 }
 @media screen and (max-width: 480px) {
     .review__card{
         min-height: 340px;
+    }
+    .review__description{
+        height: 225px;
     }
 }
 @media screen and (max-width: 330px) {
@@ -121,5 +145,8 @@
     .review__card{
         min-height: 415px;
     }
+    .review__description{
+        height: 280px;
+   }
 }
 

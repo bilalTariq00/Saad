@@ -126,6 +126,12 @@
    
 }
 
+@media screen and (max-width:1250px) {
+    .nav__link{
+        font-size: 1rem;
+    }
+}
+
 /* For Smaller Devices */
 @media screen and (max-width: 450px) {
     .nav__menu {
